@@ -1,53 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <body>
+    <table>
+    <tr>
+      <td>
   <img src="IMG_0837.jpeg" alt=KpopgroupTWS width="250px" heights="250px; float:left;margin-right:15px;">
   <p style="'text-align:center"> Are you a 42 (SAI)?</p>
-  <hr>
   <form>
-    <label for="name">Name:</label>
-    <input type="Name"id="Name" name="username" required>
-    <br>
-    <br>
-    <label for="age">Age:</label>
-   <input type="age" id="age" name="age" required>
-    <br>
-    <br>
-    <label for="address">Address:</label>
-    <input type="Adress" id="Address" name="Address" required>
-    <label for="Sex">Sex:</label>
-    <br>
-    <br>
-    <label for="Male">Male</label>
-    <input type="radio" id="Male" name="sex" required>
-    <br>
-    <label for="Female">Female</label>
-    <input type="radio" id="Female" name="sex" required>
-    <br>
-    <br>
-    <label for="E-mail">Email Address:</label>
-    <input type="Address" id="Address" name="Address" required>
-    <br>
-    <br>
-    <label for="Cellphone Number">Cellphone Number:</label>
-    <input type="name" id="Cellphone Number" name="Cellphone Number">
-    <label for="hobbies">Hobbies:</label>
-    <br>
-    <label for="checkbox">Biking</label>
-    <input type="checkbox" id="biking" name="Hobbies" value="biking">
-    <br>
-    <label for="checkbox">Singing</label>
-    <input type="checkbox" id="singing" name="Hobbies" value="singing">
-    <br>
-    <label for="checkbox">Dancing</label>
-    <input type="checkbox" id="dancing" name="Hobbies" value="dancing">
-    <br>
-    <label for="checkbox">Swimming</label>
-    <input type="checkbox" id="swimming" name="Hobbies" value="swimming">
-    <br>
-    <label for="checkbox">Reading</label>
-   <input type="checkbox" id="reading" name="Hobbies" value="reading">
-  </form>
-</body>
+    <table>
+    
+      <tr>
+        <td><label for="name">Name:</label></td>
+        <td><input type="text" id="name" name="name"></td>
+        <td rowspan="2">
+          Gender:<br>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label><br>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label>
+        </td>
+      </tr>
 
+
+      <tr><td colspan="3"><br></td></tr>
+
+
+      <tr>
+        <td><label for="address">Address:</label></td>
+        <td><input type="text" id="address" name="address"></td>
+      </tr>
+
+
+      <tr><td colspan="3"><br></td></tr>
+
+      <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input type="email" id="email" name="email"></td>
+        <td rowspan="5">
+          Hobbies:<br>
+          <input type="checkbox" id="swimming" name="hobby" value="swimming">
+          <label for="swimming">Swimming</label><br>
+          <input type="checkbox" id="biking" name="hobby" value="biking">
+          <label for="biking">Biking</label><br>
+          <input type="checkbox" id="reading" name="hobby" value="reading">
+          <label for="reading">Reading</label><br>
+          <input type="checkbox" id="tv" name="hobby" value="watching_tv">
+          <label for="tv">Watching TV</label><br>
+          <input type="checkbox" id="playing" name="hobby" value="playing">
+          <label for="playing">Playing</label>
+        </td>
+      </tr>
+
+
+      <tr><td colspan="3"><br></td></tr>
+
+          <tr>
+        <td><label for="contact">Contact Number:</label></td>
+        <td><input type="tel" id="contact" name="contact"></td>
+      </tr>
+
+ 
+      <tr><td colspan="3"><br></td></tr>
+
+
+      <tr>
+        <td colspan="3"><input type="submit" value="Submit"></td>
+      </tr>
+    </table>
+  </form>
+
+</body>
 </html>
