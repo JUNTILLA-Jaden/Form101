@@ -1,49 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form101</title>
+</head>
 <body>
-    <table>
+     <table>
     <tr>
       <td>
   <img src="IMG_0837.jpeg" alt=KpopgroupTWS width="250px" heights="250px; float:left;margin-right:15px;">
       </td>
     <td>
       <p>
-        Are you a 42 (SAI)?
+        Are you a 42 (SAI)? 
       </p>
     </table>
-      
-  <form>
-    <table>
     
-      <tr>
-        <td><label for="name">Name:</label></td>
-        <td><input type="text" id="name" name="name"></td>
-        <td rowspan="2">
-          Gender:<br>
+    <div style="float:left; width:35%">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <br>
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <br>
+        <label for="contact">Contact Number:</label>
+        <input type="tel" id="contact" name="contact">
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </div>
+
+    <div style="width:50%">
+        Gender:<br>
           <input type="radio" id="male" name="gender" value="male">
           <label for="male">Male</label><br>
           <input type="radio" id="female" name="gender" value="female">
           <label for="female">Female</label>
-        </td>
-      </tr>
-
-
-      <tr><td colspan="3"><br></td></tr>
-
-
-      <tr>
-        <td><label for="address">Address:</label></td>
-        <td><input type="text" id="address" name="address"></td>
-      </tr>
-
-
-      <tr><td colspan="3"><br></td></tr>
-
-      <tr>
-        <td><label for="email">Email:</label></td>
-        <td><input type="email" id="email" name="email"></td>
-        <td rowspan="5">
-          Hobbies:<br>
+        <br>
+        <br>
+        Hobbies:<br>
           <input type="checkbox" id="swimming" name="hobby" value="swimming">
           <label for="swimming">Swimming</label><br>
           <input type="checkbox" id="biking" name="hobby" value="biking">
@@ -54,26 +56,6 @@
           <label for="tv">Watching TV</label><br>
           <input type="checkbox" id="playing" name="hobby" value="playing">
           <label for="playing">Playing</label>
-        </td>
-      </tr>
-
-
-      <tr><td colspan="3"><br></td></tr>
-
-          <tr>
-        <td><label for="contact">Contact Number:</label></td>
-        <td><input type="tel" id="contact" name="contact"></td>
-      </tr>
-
- 
-      <tr><td colspan="3"><br></td></tr>
-
-
-      <tr>
-        <td colspan="3"><input type="submit" value="Submit"></td>
-      </tr>
-    </table>
-  </form>
-
+    </div>
 </body>
 </html>
